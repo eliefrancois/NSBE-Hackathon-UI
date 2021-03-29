@@ -20,53 +20,19 @@ export default class Onboarding extends React.Component {
           />
           <Block space="between" style={styles.padded}>
             <Block>
-              <Block middle>
-                <Image source={Images.NowLogo} style={{ width: 115, height: 124, bottom: 200, position: 'absolute' }} />
-              </Block>
-              <Block>
-                <Block middle>
-                  <Text
-                    style={{
-                      fontFamily: 'montserrat-regular', bottom: 50, position: 'absolute', letterSpacing: 2, paddingHorizontal: 20, textAlign: 'center'
-                    }}
-                    color="white"
-                    size={44}
-                  >
-                    Now UI
-                    React Native
-                  </Text>
-                </Block>
-              </Block>
               <Block middle row>
                 <Text
-                  color="white"
-                  size={16}
-                  style={{ fontFamily: 'montserrat-regular' }}
-                >
-                  Designed by
-                </Text>
-                <Image
-                  source={Images.InvisionLogo}
-                  style={{
-                    height: 28,
-                    width: 91,
-                    marginLeft: theme.SIZES.BASE
-                  }}
-                />
-              </Block>
-              <Block middle row style={{ marginTop: 15, marginBottom: 30}}>
-                <Text
-                  color="white"
+                  color="black"
                   size={16}
                   style={{ fontFamily: 'montserrat-regular' }}
                 >
                   Coded by
                 </Text>
                 <Image
-                  source={Images.CreativeTimLogo}
+                  source={Images.JELSLogo}
                   style={{
-                    height: 29,
-                    width: 129,
+                    height: 200,
+                    width: 150,
                     marginLeft: theme.SIZES.BASE
                   }}
                 />
@@ -82,14 +48,14 @@ export default class Onboarding extends React.Component {
                 <Button
                   shadowless
                   style={styles.button}
-                  color={nowTheme.COLORS.PRIMARY}
+                  color={nowTheme.COLORS.YOUTUBE}
                   onPress={() => navigation.navigate('App')}
                 >
                   <Text
                     style={{ fontFamily: 'montserrat-bold', fontSize: 14 }}
                     color={theme.COLORS.WHITE}
                   >
-                    GET STARTED
+                    Enter the Wall
                   </Text>
                 </Button>
               </Block>
