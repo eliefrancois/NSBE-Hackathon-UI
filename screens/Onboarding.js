@@ -20,23 +20,6 @@ export default class Onboarding extends React.Component {
           />
           <Block space="between" style={styles.padded}>
             <Block>
-              <Block middle row>
-                <Text
-                  color="black"
-                  size={16}
-                  style={{ fontFamily: 'montserrat-regular' }}
-                >
-                  Coded by
-                </Text>
-                <Image
-                  source={Images.JELSLogo}
-                  style={{
-                    height: 200,
-                    width: 150,
-                    marginLeft: theme.SIZES.BASE
-                  }}
-                />
-              </Block>
 
               <Block
                 row
